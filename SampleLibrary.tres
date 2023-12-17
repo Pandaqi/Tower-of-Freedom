@@ -1,0 +1,36 @@
+[gd_resource type="SampleLibrary" load_steps=16 format=1]
+
+[ext_resource path="res://Sound/Air Blowing.wav" type="Sample" id=1]
+[ext_resource path="res://Sound/Arrow.wav" type="Sample" id=2]
+[ext_resource path="res://Sound/Chopping.wav" type="Sample" id=3]
+[ext_resource path="res://Sound/Explosion.wav" type="Sample" id=4]
+[ext_resource path="res://Sound/Foliage.wav" type="Sample" id=5]
+[ext_resource path="res://Sound/Footsteps on Dirt.wav" type="Sample" id=6]
+[ext_resource path="res://Sound/Hammer.wav" type="Sample" id=7]
+[ext_resource path="res://Sound/Landing.wav" type="Sample" id=8]
+[ext_resource path="res://Sound/Loud Bird Whistle.wav" type="Sample" id=9]
+[ext_resource path="res://Sound/Monkey.wav" type="Sample" id=10]
+[ext_resource path="res://Sound/Mystery Monkey.wav" type="Sample" id=11]
+[ext_resource path="res://Sound/Soft Bird Whistle.wav" type="Sample" id=12]
+[ext_resource path="res://Sound/Stone Breaking.wav" type="Sample" id=13]
+[ext_resource path="res://Sound/Sword.wav" type="Sample" id=14]
+[ext_resource path="res://Sound/Victory Trumpet.wav" type="Sample" id=15]
+
+[resource]
+
+"samples/Air Blowing" = { "db":4.0, "pitch":1.0, "sample":ExtResource( 1 ) }
+samples/Arrow = { "db":-6.0, "pitch":1.0, "sample":ExtResource( 2 ) }
+samples/Chopping = { "db":-6.0, "pitch":1.0, "sample":ExtResource( 3 ) }
+samples/Explosion = { "db":2.0, "pitch":1.0, "sample":ExtResource( 4 ) }
+samples/Foliage = { "db":6.0, "pitch":1.0, "sample":ExtResource( 5 ) }
+"samples/Footsteps on Dirt" = { "db":0.0, "pitch":1.0, "sample":ExtResource( 6 ) }
+samples/Hammer = { "db":-10.0, "pitch":1.0, "sample":ExtResource( 7 ) }
+samples/Landing = { "db":-4.0, "pitch":1.0, "sample":ExtResource( 8 ) }
+"samples/Loud Bird Whistle" = { "db":-16.0, "pitch":1.0, "sample":ExtResource( 9 ) }
+samples/Monkey = { "db":-5.0, "pitch":1.0, "sample":ExtResource( 10 ) }
+"samples/Mystery Monkey" = { "db":-10.0, "pitch":1.0, "sample":ExtResource( 11 ) }
+"samples/Soft Bird Whistle" = { "db":-8.0, "pitch":1.0, "sample":ExtResource( 12 ) }
+"samples/Stone Breaking" = { "db":-6.0, "pitch":1.0, "sample":ExtResource( 13 ) }
+samples/Sword = { "db":4.0, "pitch":1.0, "sample":ExtResource( 14 ) }
+samples/Victory = { "db":0.0, "pitch":1.0, "sample":ExtResource( 15 ) }
+

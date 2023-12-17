@@ -1,0 +1,19 @@
+[gd_resource type="Animation" format=1]
+
+[resource]
+
+resource/name = "Throwing"
+length = 1.75
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = { "times":FloatArray( 0, 0.6, 1, 1.2 ), "transitions":FloatArray( 1, 1, 1, 1 ), "update":1, "values":[ 29, 30, 31, 1 ] }
+tracks/1/type = "method"
+tracks/1/path = NodePath("..")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = { "times":FloatArray( 1 ), "transitions":FloatArray( 1 ), "values":[ { "args":[  ], "method":"throw" } ] }
+
